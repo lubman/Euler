@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		916F202919C2A9D100139A0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916F202819C2A9D100139A0E /* Cocoa.framework */; };
+		916F203319C2A9D100139A0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 916F203119C2A9D100139A0E /* InfoPlist.strings */; };
+		916F203519C2A9D100139A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916F203419C2A9D100139A0E /* main.m */; };
+		916F203919C2A9D100139A0E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 916F203719C2A9D100139A0E /* Credits.rtf */; };
+		916F203C19C2A9D100139A0E /* EulerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916F203B19C2A9D100139A0E /* EulerAppDelegate.m */; };
+		916F203F19C2A9D100139A0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916F203D19C2A9D100139A0E /* MainMenu.xib */; };
+		916F204119C2A9D100139A0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916F204019C2A9D100139A0E /* Images.xcassets */; };
+		916F204819C2A9D100139A0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916F204719C2A9D100139A0E /* XCTest.framework */; };
+		916F204919C2A9D100139A0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916F202819C2A9D100139A0E /* Cocoa.framework */; };
+		916F205119C2A9D200139A0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 916F204F19C2A9D200139A0E /* InfoPlist.strings */; };
+		916F205319C2A9D200139A0E /* EulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916F205219C2A9D200139A0E /* EulerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		916F204A19C2A9D100139A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 916F201D19C2A9D100139A0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916F202419C2A9D100139A0E;
+			remoteInfo = Euler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		916F202519C2A9D100139A0E /* Euler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		916F202819C2A9D100139A0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		916F202B19C2A9D100139A0E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		916F202C19C2A9D100139A0E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		916F202D19C2A9D100139A0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		916F203019C2A9D100139A0E /* Euler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Euler-Info.plist"; sourceTree = "<group>"; };
+		916F203219C2A9D100139A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		916F203419C2A9D100139A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		916F203619C2A9D100139A0E /* Euler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Euler-Prefix.pch"; sourceTree = "<group>"; };
+		916F203819C2A9D100139A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		916F203A19C2A9D100139A0E /* EulerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EulerAppDelegate.h; sourceTree = "<group>"; };
+		916F203B19C2A9D100139A0E /* EulerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EulerAppDelegate.m; sourceTree = "<group>"; };
+		916F203E19C2A9D100139A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		916F204019C2A9D100139A0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		916F204619C2A9D100139A0E /* EulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		916F204719C2A9D100139A0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		916F204E19C2A9D200139A0E /* EulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EulerTests-Info.plist"; sourceTree = "<group>"; };
+		916F205019C2A9D200139A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		916F205219C2A9D200139A0E /* EulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EulerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		916F202219C2A9D100139A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F202919C2A9D100139A0E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916F204319C2A9D100139A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F204919C2A9D100139A0E /* Cocoa.framework in Frameworks */,
+				916F204819C2A9D100139A0E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		916F201C19C2A9D100139A0E = {
+			isa = PBXGroup;
+			children = (
+				916F202E19C2A9D100139A0E /* Euler */,
+				916F204C19C2A9D100139A0E /* EulerTests */,
+				916F202719C2A9D100139A0E /* Frameworks */,
+				916F202619C2A9D100139A0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		916F202619C2A9D100139A0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916F202519C2A9D100139A0E /* Euler.app */,
+				916F204619C2A9D100139A0E /* EulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916F202719C2A9D100139A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916F202819C2A9D100139A0E /* Cocoa.framework */,
+				916F204719C2A9D100139A0E /* XCTest.framework */,
+				916F202A19C2A9D100139A0E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		916F202A19C2A9D100139A0E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916F202B19C2A9D100139A0E /* AppKit.framework */,
+				916F202C19C2A9D100139A0E /* CoreData.framework */,
+				916F202D19C2A9D100139A0E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		916F202E19C2A9D100139A0E /* Euler */ = {
+			isa = PBXGroup;
+			children = (
+				916F203A19C2A9D100139A0E /* EulerAppDelegate.h */,
+				916F203B19C2A9D100139A0E /* EulerAppDelegate.m */,
+				916F203D19C2A9D100139A0E /* MainMenu.xib */,
+				916F204019C2A9D100139A0E /* Images.xcassets */,
+				916F202F19C2A9D100139A0E /* Supporting Files */,
+			);
+			path = Euler;
+			sourceTree = "<group>";
+		};
+		916F202F19C2A9D100139A0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				916F203019C2A9D100139A0E /* Euler-Info.plist */,
+				916F203119C2A9D100139A0E /* InfoPlist.strings */,
+				916F203419C2A9D100139A0E /* main.m */,
+				916F203619C2A9D100139A0E /* Euler-Prefix.pch */,
+				916F203719C2A9D100139A0E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		916F204C19C2A9D100139A0E /* EulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				916F205219C2A9D200139A0E /* EulerTests.m */,
+				916F204D19C2A9D200139A0E /* Supporting Files */,
+			);
+			path = EulerTests;
+			sourceTree = "<group>";
+		};
+		916F204D19C2A9D200139A0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				916F204E19C2A9D200139A0E /* EulerTests-Info.plist */,
+				916F204F19C2A9D200139A0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916F202419C2A9D100139A0E /* Euler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916F205619C2A9D200139A0E /* Build configuration list for PBXNativeTarget "Euler" */;
+			buildPhases = (
+				916F202119C2A9D100139A0E /* Sources */,
+				916F202219C2A9D100139A0E /* Frameworks */,
+				916F202319C2A9D100139A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Euler;
+			productName = Euler;
+			productReference = 916F202519C2A9D100139A0E /* Euler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		916F204519C2A9D100139A0E /* EulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916F205919C2A9D200139A0E /* Build configuration list for PBXNativeTarget "EulerTests" */;
+			buildPhases = (
+				916F204219C2A9D100139A0E /* Sources */,
+				916F204319C2A9D100139A0E /* Frameworks */,
+				916F204419C2A9D100139A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				916F204B19C2A9D100139A0E /* PBXTargetDependency */,
+			);
+			name = EulerTests;
+			productName = EulerTests;
+			productReference = 916F204619C2A9D100139A0E /* EulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		916F201D19C2A9D100139A0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Euler;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = InfoPro;
+				TargetAttributes = {
+					916F204519C2A9D100139A0E = {
+						TestTargetID = 916F202419C2A9D100139A0E;
+					};
+				};
+			};
+			buildConfigurationList = 916F202019C2A9D100139A0E /* Build configuration list for PBXProject "Euler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 916F201C19C2A9D100139A0E;
+			productRefGroup = 916F202619C2A9D100139A0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916F202419C2A9D100139A0E /* Euler */,
+				916F204519C2A9D100139A0E /* EulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		916F202319C2A9D100139A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F203319C2A9D100139A0E /* InfoPlist.strings in Resources */,
+				916F204119C2A9D100139A0E /* Images.xcassets in Resources */,
+				916F203919C2A9D100139A0E /* Credits.rtf in Resources */,
+				916F203F19C2A9D100139A0E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916F204419C2A9D100139A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F205119C2A9D200139A0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		916F202119C2A9D100139A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F203C19C2A9D100139A0E /* EulerAppDelegate.m in Sources */,
+				916F203519C2A9D100139A0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916F204219C2A9D100139A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F205319C2A9D200139A0E /* EulerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		916F204B19C2A9D100139A0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 916F202419C2A9D100139A0E /* Euler */;
+			targetProxy = 916F204A19C2A9D100139A0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		916F203119C2A9D100139A0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916F203219C2A9D100139A0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		916F203719C2A9D100139A0E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916F203819C2A9D100139A0E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		916F203D19C2A9D100139A0E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916F203E19C2A9D100139A0E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		916F204F19C2A9D200139A0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916F205019C2A9D200139A0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916F205419C2A9D200139A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		916F205519C2A9D200139A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		916F205719C2A9D200139A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Euler/Euler-Prefix.pch";
+				INFOPLIST_FILE = "Euler/Euler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		916F205819C2A9D200139A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Euler/Euler-Prefix.pch";
+				INFOPLIST_FILE = "Euler/Euler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		916F205A19C2A9D200139A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Euler.app/Contents/MacOS/Euler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Euler/Euler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EulerTests/EulerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		916F205B19C2A9D200139A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Euler.app/Contents/MacOS/Euler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Euler/Euler-Prefix.pch";
+				INFOPLIST_FILE = "EulerTests/EulerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		916F202019C2A9D100139A0E /* Build configuration list for PBXProject "Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916F205419C2A9D200139A0E /* Debug */,
+				916F205519C2A9D200139A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916F205619C2A9D200139A0E /* Build configuration list for PBXNativeTarget "Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916F205719C2A9D200139A0E /* Debug */,
+				916F205819C2A9D200139A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		916F205919C2A9D200139A0E /* Build configuration list for PBXNativeTarget "EulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916F205A19C2A9D200139A0E /* Debug */,
+				916F205B19C2A9D200139A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 916F201D19C2A9D100139A0E /* Project object */;
+}
