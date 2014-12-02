@@ -18,6 +18,9 @@
 		916F204919C2A9D100139A0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916F202819C2A9D100139A0E /* Cocoa.framework */; };
 		916F205119C2A9D200139A0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 916F204F19C2A9D200139A0E /* InfoPlist.strings */; };
 		916F205319C2A9D200139A0E /* EulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916F205219C2A9D200139A0E /* EulerTests.m */; };
+		919CEE741A203219009C9C53 /* EulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919CEE731A203219009C9C53 /* EulerViewController.m */; };
+		919CEE771A2032B5009C9C53 /* EulerCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 919CEE761A2032B5009C9C53 /* EulerCalc.m */; };
+		919CEE791A20EB54009C9C53 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919CEE781A20EB54009C9C53 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		916F204E19C2A9D200139A0E /* EulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EulerTests-Info.plist"; sourceTree = "<group>"; };
 		916F205019C2A9D200139A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		916F205219C2A9D200139A0E /* EulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EulerTests.m; sourceTree = "<group>"; };
+		919CEE721A203219009C9C53 /* EulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulerViewController.h; sourceTree = "<group>"; };
+		919CEE731A203219009C9C53 /* EulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulerViewController.m; sourceTree = "<group>"; };
+		919CEE751A2032B5009C9C53 /* EulerCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulerCalc.h; sourceTree = "<group>"; };
+		919CEE761A2032B5009C9C53 /* EulerCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulerCalc.m; sourceTree = "<group>"; };
+		919CEE781A20EB54009C9C53 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,11 @@
 				916F203D19C2A9D100139A0E /* MainMenu.xib */,
 				916F204019C2A9D100139A0E /* Images.xcassets */,
 				916F202F19C2A9D100139A0E /* Supporting Files */,
+				919CEE721A203219009C9C53 /* EulerViewController.h */,
+				919CEE731A203219009C9C53 /* EulerViewController.m */,
+				919CEE751A2032B5009C9C53 /* EulerCalc.h */,
+				919CEE761A2032B5009C9C53 /* EulerCalc.m */,
+				919CEE781A20EB54009C9C53 /* MainWindow.xib */,
 			);
 			path = Euler;
 			sourceTree = "<group>";
@@ -232,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				916F203319C2A9D100139A0E /* InfoPlist.strings in Resources */,
+				919CEE791A20EB54009C9C53 /* MainWindow.xib in Resources */,
 				916F204119C2A9D100139A0E /* Images.xcassets in Resources */,
 				916F203919C2A9D100139A0E /* Credits.rtf in Resources */,
 				916F203F19C2A9D100139A0E /* MainMenu.xib in Resources */,
@@ -254,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				916F203C19C2A9D100139A0E /* EulerAppDelegate.m in Sources */,
+				919CEE741A203219009C9C53 /* EulerViewController.m in Sources */,
+				919CEE771A2032B5009C9C53 /* EulerCalc.m in Sources */,
 				916F203519C2A9D100139A0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +483,7 @@
 				916F205819C2A9D200139A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		916F205919C2A9D200139A0E /* Build configuration list for PBXNativeTarget "EulerTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +492,7 @@
 				916F205B19C2A9D200139A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

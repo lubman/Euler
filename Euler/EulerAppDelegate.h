@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <math.h>
 
 @interface EulerAppDelegate : NSObject <NSApplicationDelegate>
 
+- (IBAction)Click:(id)sender;
+
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSButtonCell *ClickB;
+
 
 @end

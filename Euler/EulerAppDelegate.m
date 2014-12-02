@@ -7,12 +7,17 @@
 //
 
 #import "EulerAppDelegate.h"
+#import "EulerCalc.h"
 
 @implementation EulerAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    
+    
 }
+
+
+
 
 @end
